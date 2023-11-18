@@ -1,3 +1,6 @@
+--liquibase formatted sql
+
+--changeset brunoestrai:1
 CREATE TABLE CPF (
     CPF VARCHAR(11) NOT NULL UNIQUE,
     CREATED_AT TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
