@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "be7e141b-e33d-4066-9d14-d516488899bb",
+		"name": "Codengage Test",
+		"description": "Requisições para o teste de validação de CPF",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8636517"
+	},
+	"item": [
+		{
+			"name": "add cpf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpf\":\"05234979032\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/cpf",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"cpf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check cpf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/cpf/12208257006",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"cpf",
+						"12208257006"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove cpf",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/cpf/09408802969",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"cpf",
+						"09408802969"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find all cpfs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/cpf",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"cpf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
