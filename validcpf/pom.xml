@@ -62,6 +62,23 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- JUNIT -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- MOCKITO-->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-junit-jupiter</artifactId>
+			<version>5.7.0</version>
+			<scope>test</scope>
+		</dependency>
+
 		<!-- SERIALIZAÇÃO-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
