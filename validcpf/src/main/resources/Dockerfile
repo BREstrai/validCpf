@@ -1,4 +1,8 @@
-FROM ubuntu:latest
-LABEL authors="Bruno"
+FROM mysql:8
 
-ENTRYPOINT ["top", "-b"]
+ENV MYSQL_DATABASE=cpfvalid
+ENV DATABASE_PORT=3306
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=cpfvalid
+
+EXPOSE 3306

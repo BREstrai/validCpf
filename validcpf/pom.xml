@@ -17,27 +17,31 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
 		<!-- SPRING BOOT STARTER-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- JAKARTA-->
 		<dependency>
 			<groupId>jakarta.persistence</groupId>
 			<artifactId>jakarta.persistence-api</artifactId>
 		</dependency>
+
+		<!-- JAKARTA-->
 		<dependency>
 			<groupId>jakarta.validation</groupId>
 			<artifactId>jakarta.validation-api</artifactId>
 		</dependency>
 
+		<!-- LIQUIBASE-->
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
 		</dependency>
 
+		<!-- MYSQL-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -58,10 +62,22 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- SERIALIZAÇÃO-->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
 		<!-- JPA-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<!-- STELLA VALIDATION-->
+		<dependency> <groupId>br.com.caelum.stella</groupId>
+			<artifactId>caelum-stella-core</artifactId>
+			<version>2.1.2</version>
 		</dependency>
 	</dependencies>
 

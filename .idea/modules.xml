@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/validcpf/validcpf.iml" filepath="$PROJECT_DIR$/validcpf/validcpf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/validcpf.iml" filepath="$PROJECT_DIR$/.idea/validcpf.iml" />
     </modules>
   </component>
 </project>
